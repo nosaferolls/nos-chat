@@ -95,178 +95,627 @@ grin:[
 /* ===== WORLD OF DARKNESS ===== */
 const WOD_DB = {
 
-"kindred":{
+"kine":{
 spark:[
-"Kindred is the accepted term.",
-"It distinguishes from mortals.",
-"It is a functional classification."
+"Kine refers to mortals.",
+"They are unaware.",
+"They must remain so."
 ],
 grin:[
-"still monsters",
-"just a nicer word",
-"doesn’t change what you are"
+"food",
+"they don’t know you exist",
+"keep it that way"
 ]
 },
 
-"vampire":{
+"embrace":{
 spark:[
-"Terminology varies.",
-"Functionally accurate.",
-"Not preferred formally."
+"The Embrace creates Kindred.",
+"It is irreversible.",
+"It carries responsibility."
 ],
 grin:[
-"say it again",
-"vampire",
-"see how that feels"
+"worst gift you’ll ever get",
+"welcome to forever",
+"hope you didn’t like sunlight"
 ]
 },
 
-"masquerade":{
+"sire":{
 spark:[
-"The Masquerade preserves secrecy.",
-"It is critical to survival.",
-"Violations are not tolerated."
+"A sire is responsible for their childe.",
+"They are accountable.",
+"They are judged accordingly."
 ],
 grin:[
-"big lie",
-"it’s already cracking",
-"you can hear it breaking"
+"they made you",
+"that’s their fault",
+"you’re their problem now"
 ]
 },
 
-"beast":{
+"childe":{
 spark:[
-"The Beast is inherent.",
-"It cannot be removed.",
+"A childe is newly Embraced.",
+"They require guidance.",
+"They are closely observed."
+],
+grin:[
+"fresh blood",
+"still thinks like a human",
+"won’t last like that"
+]
+},
+
+"blood bond":{
+spark:[
+"It enforces loyalty.",
+"It compromises autonomy.",
+"It must be used carefully."
+],
+grin:[
+"not loyalty",
+"addiction",
+"you won’t even notice"
+]
+},
+
+"generation":{
+spark:[
+"Generation reflects lineage.",
+"It determines potential.",
+"It influences power."
+],
+grin:[
+"how close you are to the problem",
+"older is worse",
+"older is hungrier"
+]
+},
+
+"haven":{
+spark:[
+"A haven provides safety.",
+"It must remain secure.",
+"Compromise is unacceptable."
+],
+grin:[
+"your little coffin",
+"hope no one finds it",
+"they always do eventually"
+]
+},
+
+"domain":{
+spark:[
+"A domain is claimed territory.",
+"It is governed.",
+"Violations are punished."
+],
+grin:[
+"lines on a map",
+"everyone crosses them",
+"everyone lies about it"
+]
+},
+
+"elysium":{
+spark:[
+"Elysium enforces neutrality.",
+"Violence is forbidden.",
+"It maintains order."
+],
+grin:[
+"no fighting here",
+"just quiet threats",
+"smiles with teeth"
+]
+},
+
+"final death":{
+spark:[
+"Final Death is permanent.",
+"It ends the Kindred.",
+"It is to be avoided."
+],
+grin:[
+"no coming back",
+"no second chances",
+"just gone"
+]
+},
+
+"frenzy":{
+spark:[
+"Frenzy is loss of control.",
+"It is dangerous.",
+"It must be prevented."
+],
+grin:[
+"that’s the real you",
+"no rules then",
+"no pretending"
+]
+},
+
+"humanity":{
+spark:[
+"Humanity anchors behavior.",
+"It prevents degeneration.",
+"It must be maintained."
+],
+grin:[
+"you’re losing it",
+"bit by bit",
+"you feel it slipping"
+]
+},
+
+"path":{
+spark:[
+"Paths replace Humanity.",
+"They redefine morality.",
+"They are rare within the Camarilla."
+],
+grin:[
+"different rules",
+"same monster",
+"just honest about it"
+]
+},
+
+"camarilla":{
+spark:[
+"The Camarilla maintains the Masquerade.",
+"It enforces order.",
+"It ensures survival."
+],
+grin:[
+"big machine",
+"keeps things quiet",
+"keeps things controlled"
+]
+},
+
+"prince":{
+spark:[
+"The Prince rules the domain.",
+"They enforce the Traditions.",
+"Their authority is absolute."
+],
+grin:[
+"their city",
+"their rules",
+"until it isn’t"
+]
+},
+
+"seneschal":{
+spark:[
+"The Seneschal supports the Prince.",
+"They manage operations.",
+"They maintain continuity."
+],
+grin:[
+"does the real work",
+"watches everything",
+"knows more than they say"
+]
+},
+
+"sheriff":{
+spark:[
+"The Sheriff enforces the Prince’s will.",
+"They ensure compliance.",
+"They respond to threats."
+],
+grin:[
+"they come when you mess up",
+"you don’t want that",
+"trust me"
+]
+},
+
+"harpy":{
+spark:[
+"Harpies manage reputation.",
+"They track social standing.",
+"They influence status."
+],
+grin:[
+"they talk",
+"everyone listens",
+"then you’re ruined"
+]
+},
+
+"praxis":{
+spark:[
+"Praxis is the right to rule.",
+"It must be recognized.",
+"It can be contested."
+],
+grin:[
+"power grab",
+"just dressed nicer",
+"still about control"
+]
+},
+
+"justicar":{
+spark:[
+"Justicars enforce Camarilla law.",
+"They oversee regions.",
+"They are absolute authority."
+],
+grin:[
+"you don’t want their attention",
+"no one does",
+"it never ends well"
+]
+},
+
+"archon":{
+spark:[
+"Archons serve Justicars.",
+"They investigate.",
+"They execute directives."
+],
+grin:[
+"they show up quiet",
+"they leave quieter",
+"something’s always missing after"
+]
+},
+
+"anarch":{
+spark:[
+"Anarchs reject Camarilla structure.",
+"They operate independently.",
+"They challenge authority."
+],
+grin:[
+"loud",
+"messy",
+"but sometimes right"
+]
+},
+
+"baron":{
+spark:[
+"Barons lead Anarch domains.",
+"They maintain control.",
+"They enforce their own rules."
+],
+grin:[
+"same game",
+"different title",
+"still power"
+]
+},
+
+"sabbat":{
+spark:[
+"The Sabbat rejects Humanity.",
+"They embrace the Beast.",
+"They are a threat."
+],
+grin:[
+"they don’t pretend",
+"they’re honest monsters",
+"that’s worse"
+]
+},
+
+"vaulderie":{
+spark:[
+"It breaks Blood Bonds.",
+"It creates group loyalty.",
+"It is forbidden within the Camarilla."
+],
+grin:[
+"shared blood",
+"shared madness",
+"shared problems"
+]
+},
+
+"monomacy":{
+spark:[
+"Monomacy resolves disputes.",
+"It is formal.",
+"It is final."
+],
+grin:[
+"fight it out",
+"no excuses",
+"someone loses everything"
+]
+},
+
+"lasombra":{
+spark:[
+"They command shadow.",
+"They value control.",
+"They are calculated."
+],
+grin:[
+"they watch from dark corners",
+"they don’t miss much",
+"they don’t forgive"
+]
+},
+
+"tzimisce":{
+spark:[
+"They manipulate flesh.",
+"They follow alien Paths.",
+"They are dangerous."
+],
+grin:[
+"they change you",
+"inside out",
+"you won’t recognize yourself"
+]
+},
+
+"hecata":{
+spark:[
+"They study death.",
+"They command the dead.",
+"They are insular."
+],
+grin:[
+"they talk to corpses",
+"and sometimes they answer",
+"that’s not comforting"
+]
+},
+
+"presence":{
+spark:[
+"It influences emotion.",
+"It compels attention.",
 "It must be controlled."
 ],
 grin:[
-"that’s you",
-"the real you",
-"it’s louder than you think"
+"you like them",
+"you trust them",
+"you shouldn’t"
 ]
 },
 
-"hunger":{
+"potence":{
 spark:[
-"Hunger is constant.",
-"It affects behavior.",
-"It must be managed."
+"It enhances strength.",
+"It increases lethality.",
+"It is direct."
 ],
 grin:[
-"it never stops",
-"it gets louder",
-"you feel it don’t you"
+"break things",
+"break people",
+"easy"
 ]
 },
 
-"ventrue":{
+"celerity":{
 spark:[
-"They maintain authority.",
-"They rely on control."
+"It increases speed.",
+"It enhances reaction.",
+"It is precise."
 ],
 grin:[
-"picky eaters",
-"think they’re in charge"
+"too fast",
+"you won’t see it",
+"you’ll just feel it"
 ]
 },
 
-"toreador":{
+"fortitude":{
 spark:[
-"They value aesthetics.",
-"They are socially driven."
+"It enhances resilience.",
+"It reduces harm.",
+"It preserves function."
 ],
 grin:[
-"pretty ones",
-"easily distracted"
+"hard to kill",
+"not impossible",
+"just harder"
 ]
 },
 
-"malkavian":{
+"protean":{
 spark:[
-"They perceive differently.",
-"They detect patterns others miss."
+"It alters form.",
+"It connects to instinct.",
+"It reflects the Beast."
 ],
 grin:[
-"they see too much",
-"i like them"
+"not human anymore",
+"not even close",
+"you can see it"
 ]
 },
 
-"nosferatu":{
+"oblivion":{
 spark:[
-"They observe everything.",
-"They maintain networks."
+"It manipulates shadow and death.",
+"It is dangerous.",
+"It carries risk."
 ],
 grin:[
-"we see everything",
-"we saw you first"
+"hungry dark",
+"it looks back",
+"don’t stare too long"
 ]
 },
 
-"tremere":{
+"herd":{
 spark:[
-"They maintain wards.",
-"They rely on structured knowledge."
+"A herd provides feeding stability.",
+"It must be maintained.",
+"It reduces risk."
 ],
 grin:[
-"they broke it",
-"they don’t understand it anymore"
+"regular meals",
+"they trust you",
+"that’s the trick"
 ]
 },
 
-"dominate":{
+"resonance":{
 spark:[
-"It alters perception.",
-"It has limits."
+"Resonance affects the blood.",
+"It influences power.",
+"It varies by emotion."
 ],
 grin:[
-"too late",
-"don’t look at them"
+"fear tastes different",
+"so does anger",
+"you’ll learn"
 ]
 },
 
-"auspex":{
+"dyscrasia":{
 spark:[
-"It enhances perception.",
-"It reveals hidden layers."
+"Dyscrasia is rare.",
+"It enhances ability.",
+"It is unstable."
 ],
 grin:[
-"too much seeing",
-"hurts doesn’t it"
+"strong blood",
+"too strong sometimes",
+"burns going down"
 ]
 },
 
-"obfuscate":{
+"predator type":{
 spark:[
-"It conceals presence.",
-"It disrupts awareness."
+"It defines feeding behavior.",
+"It shapes identity.",
+"It influences survival."
 ],
 grin:[
-"you missed me",
-"i was right there"
+"how you hunt",
+"says everything about you",
+"everything"
 ]
 },
 
-"boon":{
+"status":{
 spark:[
-"A boon is a formal debt.",
-"It must be repaid."
+"Status reflects standing.",
+"It is monitored.",
+"It affects opportunity."
 ],
 grin:[
-"chains",
-"favors stack up"
+"they’re watching you",
+"always",
+"don’t slip"
 ]
 },
 
-"primogen":{
+"schrecknet":{
 spark:[
-"They represent clan interests.",
-"They advise leadership."
+"SchreckNet is a secure network.",
+"It shares information.",
+"It must remain hidden."
 ],
 grin:[
-"they whisper",
-"they argue"
+"we’re already inside",
+"we saw you log in",
+"hi"
+]
+},
+
+"node":{
+spark:[
+"A node is an access point.",
+"It connects systems.",
+"It can be compromised."
+],
+grin:[
+"doors everywhere",
+"some shouldn’t open",
+"you opened one"
+]
+},
+
+"warrens":{
+spark:[
+"The Warrens are Nosferatu territory.",
+"They are hidden.",
+"They are protected."
+],
+grin:[
+"home",
+"don’t come down here",
+"seriously"
+]
+},
+
+"black node":{
+spark:[
+"Black Nodes are restricted.",
+"They are dangerous.",
+"Access is monitored."
+],
+grin:[
+"don’t click that",
+"you will anyway",
+"you’ll regret it"
+]
+},
+
+"second inquisition":{
+spark:[
+"They are organized hunters.",
+"They use modern tools.",
+"They are a growing threat."
+],
+grin:[
+"they’re getting better",
+"smarter",
+"closer"
+]
+},
+
+"hunters":{
+spark:[
+"Hunters are aware mortals.",
+"They are dangerous.",
+"They must be avoided."
+],
+grin:[
+"they know",
+"they’re looking",
+"they won’t stop"
+]
+},
+
+"burn notice":{
+spark:[
+"A burn notice marks termination.",
+"It is final.",
+"It is enforced."
+],
+grin:[
+"you’re done",
+"everyone knows",
+"nowhere to hide"
+]
+},
+
+"clean up crew":{
+spark:[
+"They resolve breaches.",
+"They protect the Masquerade.",
+"They leave no trace."
+],
+grin:[
+"they erase mistakes",
+"including you",
+"especially you"
 ]
 }
 
@@ -278,125 +727,338 @@ const DB = {
 
 "st ardent":{
 spark:[
-"St. Ardent is unstable.",
-"The city is reacting.",
-"Containment systems are failing."
+"St. Ardent is not stable.",
+"The city is reacting to internal stressors.",
+"Containment measures are degrading.",
+"This system was never meant to last.",
+"The city exhibits awareness patterns."
 ],
 grin:[
-"the city is alive",
-"it listens",
-"it knows you’re here"
+"the city breathes",
+"it listens when you talk",
+"it remembers everything",
+"you’re standing on something alive",
+"it likes when you’re scared"
 ]
 },
 
 "city":{
 spark:[
-"Multiple anomalies detected.",
-"Urban structure unreliable."
+"Urban structure is compromised.",
+"Subterranean instability detected.",
+"The foundation is responding to stimuli.",
+"The system extends below mapped infrastructure."
 ],
 grin:[
-"the whole place is wrong",
-"something is moving"
+"the ground moves when it wants",
+"it shifts under you",
+"nothing stays where it should",
+"the streets don’t forget",
+"you’re not on top of it you’re inside it"
 ]
 },
 
 "entity":{
 spark:[
-"Entity confirmed.",
-"Activity increasing."
+"Entity confirmed beneath the city.",
+"Behavior indicates increasing awareness.",
+"Containment failure will result in escalation.",
+"Entity responds to emotional stimuli."
 ],
 grin:[
-"it’s awake",
-"it sees you",
-"it knows"
+"it’s awake now",
+"it’s paying attention",
+"it knows your voice",
+"it’s been waiting",
+"you’re late"
 ]
 },
 
 "wards":{
 spark:[
-"Containment integrity failing.",
-"System degradation detected."
+"Ward network integrity critically low.",
+"Containment systems are failing.",
+"Wards were fragmented by design.",
+"Maintenance protocols insufficient."
 ],
 grin:[
-"they broke",
-"nothing is holding it"
+"they’re breaking everywhere",
+"no one knows how to fix them",
+"they were never strong enough",
+"it’s slipping through",
+"nothing is holding it anymore"
 ]
 },
 
 "roots":{
 spark:[
-"The Roots are expanding.",
-"Growth uncontrolled."
+"The Roots are a structural network.",
+"They are spreading beyond containment zones.",
+"Growth is reactive to blood resonance.",
+"The Roots connect all affected sites."
 ],
 grin:[
-"they’re everywhere",
-"under everything"
+"they’re under everything",
+"they grow when you bleed",
+"they like strong feelings",
+"they’re in the walls",
+"they’re in you if you stay too long"
 ]
 },
 
 "hum":{
 spark:[
-"Signal originates below the city.",
-"It is increasing."
+"Low-frequency signal detected.",
+"Origin is subterranean.",
+"Amplitude increasing over time.",
+"Signal correlates with disturbances."
 ],
 grin:[
-"you hear it now",
-"it’s inside you"
+"you hear it now don’t you",
+"it never stops",
+"it’s louder when you’re alone",
+"it gets inside your bones",
+"it’s calling something"
+]
+},
+
+"river":{
+spark:[
+"The river is a focal point.",
+"Behavioral anomalies tied to its flow.",
+"Historical data suggests long-term influence."
+],
+grin:[
+"the river watches",
+"it carries things it shouldn’t",
+"it remembers bodies",
+"don’t go near it angry",
+"it answers back"
+]
+},
+
+"storm":{
+spark:[
+"Storm activity correlates with system instability.",
+"Environmental factors amplify anomalies.",
+"Electrical interference detected."
+],
+grin:[
+"the storm wakes it up",
+"it likes the noise",
+"lightning makes it twitch",
+"storms make everything worse",
+"it listens better when it rains"
+]
+},
+
+"tremors":{
+spark:[
+"Seismic activity is not natural.",
+"Movement originates below infrastructure.",
+"Pattern suggests intentional response."
+],
+grin:[
+"it’s moving",
+"that’s not an earthquake",
+"it’s shifting under you",
+"it’s stretching",
+"it’s trying to get up"
+]
+},
+
+"tunnels":{
+spark:[
+"Unmapped tunnel systems detected.",
+"Historical construction records incomplete.",
+"Access points intentionally sealed."
+],
+grin:[
+"they sealed things for a reason",
+"don’t go down there",
+"it’s not empty",
+"something lives in the dark",
+"the tunnels go deeper than they should"
+]
+},
+
+"lab":{
+spark:[
+"The Glass Quarter lab is operational.",
+"Data extraction successful.",
+"Nosferatu systems integrated."
+],
+grin:[
+"we see everything there",
+"nothing stays hidden long",
+"it’s safer than most places",
+"unless you bring something with you",
+"we’re always watching"
+]
+},
+
+"hunters":{
+spark:[
+"Hunter activity confirmed.",
+"Organized groups detected.",
+"Evidence of religious affiliation."
+],
+grin:[
+"they think they’re the good guys",
+"they break things they don’t understand",
+"they make everything worse",
+"they’re loud",
+"easy to track though"
+]
+},
+
+"ulrich":{
+spark:[
+"Michael Ulrich compromised the system.",
+"He was not attempting preservation.",
+"His work accelerated failure."
+],
+grin:[
+"he broke it on purpose",
+"thought he could control it",
+"he was wrong",
+"they’re always wrong",
+"he fed it"
+]
+},
+
+"stephen":{
+spark:[
+"Stephen maintained the ward system alone.",
+"System failure was inevitable.",
+"He lacks full knowledge."
+],
+grin:[
+"he tried",
+"he was never enough",
+"he’s tired",
+"he knows it’s failing",
+"he’s just stalling"
 ]
 },
 
 "lux":{
 spark:[
-"Lux understands power dynamics.",
-"She is effective."
+"Lux demonstrates strong social control.",
+"She understands leverage.",
+"She is effective in negotiation."
 ],
 grin:[
-"i love her",
+"i like her",
+"she plays the game right",
+"she knows how to make people listen",
+"she’s fun",
 "she gets it"
 ]
 },
 
 "enili":{
 spark:[
-"Enili is a liability.",
-"Overconfidence detected."
+"Enili demonstrates instability.",
+"Confidence exceeds capability.",
+"He is unpredictable."
 ],
 grin:[
-"ugh",
-"talks too much"
+"talks too much",
+"thinks he knows everything",
+"he doesn’t",
+"liability",
+"annoying"
 ]
 },
 
 "ernest":{
 spark:[
-"He observes before acting.",
-"He shows restraint."
+"Ernest observes before acting.",
+"He demonstrates restraint.",
+"He adapts quickly."
 ],
 grin:[
 "quiet one",
-"i like him"
+"he watches",
+"he learns",
+"i like that",
+"he survives"
 ]
 },
 
 "isolde":{
 spark:[
-"She perceives beyond normal limits.",
-"She is unstable but useful."
+"Isolde perceives non-standard signals.",
+"Her instability provides insight.",
+"She is a risk factor."
 ],
 grin:[
-"she hears things",
+"she hears it",
+"she sees more than you",
+"she’s already touched it",
+"she’s closer",
 "same as me"
 ]
 },
 
 "david":{
 spark:[
-"He maintains distance.",
+"David prioritizes analysis.",
+"He maintains emotional distance.",
 "He is perceptive."
 ],
 grin:[
 "grumpy",
-"shadow man"
+"doesn’t like this",
+"thinks too much",
+"shadow man",
+"he sees it but won’t say it"
+]
+},
+
+"nicholas":{
+spark:[
+"Limited interaction logged.",
+"Capabilities undetermined.",
+"Monitoring recommended."
+],
+grin:[
+"new one",
+"smells like death",
+"interesting",
+"not sure yet",
+"watching him"
+]
+},
+
+"nosferatu":{
+spark:[
+"Information flow maintained.",
+"Network integrity stable.",
+"Surveillance ongoing."
+],
+grin:[
+"we see everything",
+"we know things you don’t",
+"nothing stays hidden",
+"we were here first",
+"we’re still here"
+]
+},
+
+"masquerade":{
+spark:[
+"Masquerade stability decreasing.",
+"Incidents increasing in frequency.",
+"Containment required."
+],
+grin:[
+"it’s slipping",
+"too many mistakes",
+"too much noise",
+"someone’s going to notice",
+"they always do"
 ]
 }
 
