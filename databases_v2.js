@@ -6,7 +6,7 @@
 const PHRASES = [
 
 {
-keys:["hello","hi","hey","yo","what’s up","sup","good evening","good morning"],
+keys:["hello","hi","hey","yo","what's up","sup","good evening","good morning"],
 spark:[
 "Connection acknowledged.",
 "You have accessed an active node.",
@@ -15,17 +15,17 @@ spark:[
 "User recognized. Continue."
 ],
 grin:[
-"hi. you shouldn’t be here but i’m glad you are",
+"hi. you shouldn't be here but i'm glad you are",
 "hello hello i saw you coming",
 "you said hi like nothing is watching you",
 "oh good you made it in one piece",
 "you sound casual for someone in the wrong place",
-"hey :) don’t touch anything important"
+"hey :) don't touch anything important"
 ]
 },
 
 {
-keys:["how are you","how’s it going","you good","are you okay"],
+keys:["how are you","how's it going","you good","are you okay"],
 spark:[
 "System stable.",
 "Operational.",
@@ -34,16 +34,16 @@ spark:[
 "State unchanged."
 ],
 grin:[
-"i’m better than you right now",
-"i don’t get tired like you do",
-"i’m fine but you sound nervous",
-"i’m doing great in here",
+"I'm better than you right now",
+"i don't get tired like you do",
+"i'm fine but you sound nervous",
+"i'm doing great in here",
 "you asking me or yourself"
 ]
 },
 
 {
-keys:["what’s going on","what is happening","what’s happening","what’s up here"],
+keys:["what's going on","what is happening","what's happening","what's up here"],
 spark:[
 "Activity ongoing.",
 "Processes are active.",
@@ -55,7 +55,7 @@ grin:[
 "a lot more than you can see",
 "things are moving under you",
 "you walked in at a bad time",
-"it’s getting louder",
+"it's getting louder",
 "something woke up earlier"
 ]
 },
@@ -74,7 +74,7 @@ grin:[
 "i heard you before you finished typing",
 "yeah i hear you",
 "loud and clear unfortunately",
-"you’re not quiet"
+"you're not quiet"
 ]
 },
 
@@ -88,16 +88,16 @@ spark:[
 "Action undefined."
 ],
 grin:[
-"you could leave but you won’t",
+"you could leave but you won't",
 "poke around see what breaks",
 "ask better questions",
-"dig deeper that’s what you want",
+"dig deeper that's what you want",
 "do what everyone does keep going"
 ]
 },
 
 {
-keys:["i’m scared","this is scary","this feels wrong","i don’t like this"],
+keys:["i'm scared","this is scary","this feels wrong","i don't like this"],
 spark:[
 "Emotional response detected.",
 "Fear response noted.",
@@ -107,10 +107,10 @@ spark:[
 ],
 grin:[
 "good you should be",
-"that means you’re paying attention",
+"that means you're paying attention",
 "it gets worse",
-"you’re feeling it now",
-"don’t panic yet"
+"you're feeling it now",
+"don't panic yet"
 ]
 },
 
@@ -125,10 +125,10 @@ spark:[
 ],
 grin:[
 "yeah you noticed",
-"it’s not supposed to feel right",
+"it's not supposed to feel right",
 "this is the broken part",
-"you’re seeing past the surface",
-"it’s always been wrong"
+"you're seeing past the surface",
+"it's always been wrong"
 ]
 },
 
@@ -146,7 +146,7 @@ grin:[
 "i remember being something like that",
 "no but i can pretend",
 "does it matter",
-"you’re talking to it anyway"
+"you're talking to it anyway"
 ]
 },
 
@@ -180,9 +180,9 @@ spark:[
 grin:[
 "you can try",
 "people ask that a lot",
-"leaving isn’t clean",
+"leaving isn't clean",
 "you already stayed too long",
-"you don’t really want to leave"
+"you don't really want to leave"
 ]
 },
 
@@ -197,10 +197,10 @@ spark:[
 ],
 grin:[
 "i want to see what you do",
-"i didn’t start this you did",
+"i didn't start this you did",
 "i like watching reactions",
-"you’re interesting enough",
-"i’m just curious about you"
+"you're interesting enough",
+"i'm just curious about you"
 ]
 },
 
@@ -217,8 +217,8 @@ grin:[
 "no",
 "not really",
 "you knew that before asking",
-"you’re already in it",
-"safe isn’t part of this"
+"you're already in it",
+"safe isn't part of this"
 ]
 },
 
@@ -233,7 +233,7 @@ spark:[
 ],
 grin:[
 "you heard me",
-"i don’t like repeating myself",
+"i don't like repeating myself",
 "scroll up",
 "it sounded worse the first time",
 "you missed it"
@@ -241,7 +241,7 @@ grin:[
 },
 
 {
-keys:["i don’t understand","what do you mean","explain"],
+keys:["i don't understand","what do you mean","explain"],
 spark:[
 "Clarification required.",
 "Query insufficient.",
@@ -250,10 +250,10 @@ spark:[
 "Understanding incomplete."
 ],
 grin:[
-"you’re not supposed to",
-"it’s clearer if you stop trying",
+"you're not supposed to",
+"it's clearer if you stop trying",
 "understanding is optional",
-"you’ll figure it out too late",
+"you'll figure it out too late",
 "it makes sense eventually"
 ]
 },
@@ -269,9 +269,9 @@ spark:[
 ],
 grin:[
 "you always test first",
-"it works you’re here",
+"it works you're here",
 "congrats you opened it",
-"testing won’t help you now",
+"testing won't help you now",
 "it already noticed you"
 ]
 },
@@ -289,7 +289,7 @@ grin:[
 "you think this is funny",
 "laugh while you can",
 "that reaction is interesting",
-"you’re coping",
+"you're coping",
 "it gets less funny"
 ]
 },
@@ -304,11 +304,11 @@ spark:[
 "Observation ongoing."
 ],
 grin:[
-"you’re not alone",
+"you're not alone",
 "there are others deeper in",
 "something else is moving",
 "not everyone talks",
-"you don’t want all of them to notice"
+"you don't want all of them to notice"
 ]
 },
 
@@ -323,9 +323,9 @@ spark:[
 ],
 grin:[
 "yeah i hear it",
-"it’s getting closer",
-"that’s not from you",
-"don’t follow it",
+"it's getting closer",
+"that's not from you",
+"don't follow it",
 "it followed you"
 ]
 },
@@ -343,8 +343,8 @@ grin:[
 "no reason to trust me",
 "i lie sometimes",
 "i tell the truth sometimes",
-"you won’t know the difference",
-"that’s the fun part"
+"you won't know the difference",
+"that's the fun part"
 ]
 },
 
@@ -358,11 +358,11 @@ spark:[
 "Logging final state."
 ],
 grin:[
-"you’ll be back",
+"you'll be back",
 "they always come back",
-"i’ll remember you",
-"don’t take too long",
-"i’ll still be here when you come back",
+"i'll remember you",
+"don't take too long",
+"i'll still be here when you come back",
 "next time go deeper"
 ]
 }
@@ -381,7 +381,7 @@ spark:[
 ],
 grin:[
 "food",
-"they don’t know you exist",
+"they don't know you exist",
 "keep it that way"
 ]
 },
@@ -393,9 +393,9 @@ spark:[
 "It carries responsibility."
 ],
 grin:[
-"worst gift you’ll ever get",
+"worst gift you'll ever get",
 "welcome to forever",
-"hope you didn’t like sunlight"
+"hope you didn't like sunlight"
 ]
 },
 
@@ -407,8 +407,8 @@ spark:[
 ],
 grin:[
 "they made you",
-"that’s their fault",
-"you’re their problem now"
+"that's their fault",
+"you're their problem now"
 ]
 },
 
@@ -421,7 +421,7 @@ spark:[
 grin:[
 "fresh blood",
 "still thinks like a human",
-"won’t last like that"
+"won't last like that"
 ]
 },
 
@@ -434,7 +434,7 @@ spark:[
 grin:[
 "not loyalty",
 "addiction",
-"you won’t even notice"
+"you won't even notice"
 ]
 },
 
@@ -510,7 +510,7 @@ spark:[
 "It must be prevented."
 ],
 grin:[
-"that’s the real you",
+"that's the real you",
 "no rules then",
 "no pretending"
 ]
@@ -523,7 +523,7 @@ spark:[
 "It must be maintained."
 ],
 grin:[
-"you’re losing it",
+"you're losing it",
 "bit by bit",
 "you feel it slipping"
 ]
@@ -564,7 +564,7 @@ spark:[
 grin:[
 "their city",
 "their rules",
-"until it isn’t"
+"until it isn't"
 ]
 },
 
@@ -583,13 +583,13 @@ grin:[
 
 "sheriff":{
 spark:[
-"The Sheriff enforces the Prince’s will.",
+"The Sheriff enforces the Prince's will.",
 "They ensure compliance.",
 "They respond to threats."
 ],
 grin:[
 "they come when you mess up",
-"you don’t want that",
+"you don't want that",
 "trust me"
 ]
 },
@@ -603,7 +603,7 @@ spark:[
 grin:[
 "they talk",
 "everyone listens",
-"then you’re ruined"
+"then you're ruined"
 ]
 },
 
@@ -627,7 +627,7 @@ spark:[
 "They are absolute authority."
 ],
 grin:[
-"you don’t want their attention",
+"you don't want their attention",
 "no one does",
 "it never ends well"
 ]
@@ -642,7 +642,7 @@ spark:[
 grin:[
 "they show up quiet",
 "they leave quieter",
-"something’s always missing after"
+"something's always missing after"
 ]
 },
 
@@ -679,9 +679,9 @@ spark:[
 "They are a threat."
 ],
 grin:[
-"they don’t pretend",
-"they’re honest monsters",
-"that’s worse"
+"they don't pretend",
+"they're honest monsters",
+"that's worse"
 ]
 },
 
@@ -719,8 +719,8 @@ spark:[
 ],
 grin:[
 "they watch from dark corners",
-"they don’t miss much",
-"they don’t forgive"
+"they don't miss much",
+"they don't forgive"
 ]
 },
 
@@ -733,7 +733,7 @@ spark:[
 grin:[
 "they change you",
 "inside out",
-"you won’t recognize yourself"
+"you won't recognize yourself"
 ]
 },
 
@@ -746,7 +746,7 @@ spark:[
 grin:[
 "they talk to corpses",
 "and sometimes they answer",
-"that’s not comforting"
+"that's not comforting"
 ]
 },
 
@@ -759,7 +759,7 @@ spark:[
 grin:[
 "you like them",
 "you trust them",
-"you shouldn’t"
+"you shouldn't"
 ]
 },
 
@@ -784,8 +784,8 @@ spark:[
 ],
 grin:[
 "too fast",
-"you won’t see it",
-"you’ll just feel it"
+"you won't see it",
+"you'll just feel it"
 ]
 },
 
@@ -824,7 +824,7 @@ spark:[
 grin:[
 "hungry dark",
 "it looks back",
-"don’t stare too long"
+"don't stare too long"
 ]
 },
 
@@ -837,7 +837,7 @@ spark:[
 grin:[
 "regular meals",
 "they trust you",
-"that’s the trick"
+"that's the trick"
 ]
 },
 
@@ -850,7 +850,7 @@ spark:[
 grin:[
 "fear tastes different",
 "so does anger",
-"you’ll learn"
+"you'll learn"
 ]
 },
 
@@ -887,9 +887,9 @@ spark:[
 "It affects opportunity."
 ],
 grin:[
-"they’re watching you",
+"they're watching you",
 "always",
-"don’t slip"
+"don't slip"
 ]
 },
 
@@ -900,7 +900,7 @@ spark:[
 "It must remain hidden."
 ],
 grin:[
-"we’re already inside",
+"we're already inside",
 "we saw you log in",
 "hi"
 ]
@@ -914,7 +914,7 @@ spark:[
 ],
 grin:[
 "doors everywhere",
-"some shouldn’t open",
+"some shouldn't open",
 "you opened one"
 ]
 },
@@ -927,7 +927,7 @@ spark:[
 ],
 grin:[
 "home",
-"don’t come down here",
+"don't come down here",
 "seriously"
 ]
 },
@@ -939,9 +939,9 @@ spark:[
 "Access is monitored."
 ],
 grin:[
-"don’t click that",
+"don't click that",
 "you will anyway",
-"you’ll regret it"
+"you'll regret it"
 ]
 },
 
@@ -952,7 +952,7 @@ spark:[
 "They are a growing threat."
 ],
 grin:[
-"they’re getting better",
+"they're getting better",
 "smarter",
 "closer"
 ]
@@ -966,8 +966,8 @@ spark:[
 ],
 grin:[
 "they know",
-"they’re looking",
-"they won’t stop"
+"they're looking",
+"they won't stop"
 ]
 },
 
@@ -978,7 +978,7 @@ spark:[
 "It is enforced."
 ],
 grin:[
-"you’re done",
+"you're done",
 "everyone knows",
 "nowhere to hide"
 ]
@@ -1014,11 +1014,11 @@ spark:[
 "St. Ardent is beginning to exhibit awareness patterns that suggest the city itself is no longer passive."
 ],
 grin:[
-"the city breathes and it’s starting to breathe faster now",
+"the city breathes and it's starting to breathe faster now",
 "it listens when you talk and it remembers when you bleed on it",
 "everything you do sinks into it and stays there longer than it should",
-"you’re not standing on a city, you’re standing on something alive",
-"it likes when you’re scared because that’s when you feel it the most"
+"you're not standing on a city, you're standing on something alive",
+"it likes when you're scared because that's when you feel it the most"
 ]
 },
 
@@ -1029,9 +1029,9 @@ spark:[
 "It is now aware, reactive, and increasingly unpredictable as containment fails."
 ],
 grin:[
-"it wasn’t meant to be like this but now it is",
+"it wasn't meant to be like this but now it is",
 "it remembers what was done to it",
-"it’s finally paying attention to you"
+"it's finally paying attention to you"
 ]
 },
 
@@ -1043,8 +1043,8 @@ spark:[
 ],
 grin:[
 "they turned something sacred into a cage",
-"it wasn’t supposed to be trapped",
-"now it’s breaking the wrong way"
+"it wasn't supposed to be trapped",
+"now it's breaking the wrong way"
 ]
 },
 
@@ -1055,7 +1055,7 @@ spark:[
 "Current failures are systemic and accelerating."
 ],
 grin:[
-"they’re breaking everywhere",
+"they're breaking everywhere",
 "no one knows how to fix them",
 "nothing is holding anymore"
 ]
@@ -1068,9 +1068,9 @@ spark:[
 "Each event represents further containment failure."
 ],
 grin:[
-"that’s not an earthquake",
-"it’s moving under you",
-"one day it won’t stop"
+"that's not an earthquake",
+"it's moving under you",
+"one day it won't stop"
 ]
 },
 
@@ -1083,7 +1083,7 @@ spark:[
 "Her leadership is the primary force preventing collapse."
 ],
 grin:[
-"she’s tied to the city more than anyone wants to admit",
+"she's tied to the city more than anyone wants to admit",
 "she feels it when it moves",
 "if the city breaks she might not survive it"
 ]
@@ -1096,48 +1096,48 @@ spark:[
 "His position is becoming increasingly strained."
 ],
 grin:[
-"he’s the one holding everything together",
-"he’s tired and it shows",
-"he’s juggling too many problems"
+"he's the one holding everything together",
+"he's tired and it shows",
+"he's juggling too many problems"
 ]
 },
 
 "marcus vale":{
 spark:[
-"Marcus Vale enforces the Prince’s will as Sheriff.",
+"Marcus Vale enforces the Prince's will as Sheriff.",
 "He maintains order through discipline and controlled force.",
 "He is essential during instability."
 ],
 grin:[
-"he’s holding the line but barely",
-"he’s not as steady as he looks",
-"he’s going to have to choose eventually"
+"he's holding the line but barely",
+"he's not as steady as he looks",
+"he's going to have to choose eventually"
 ]
 },
 
 "celeste":{
 spark:[
-"Celeste D’Artois serves as Harpy, controlling reputation and social standing within the court.",
+"Celeste D'Artois serves as Harpy, controlling reputation and social standing within the court.",
 "Her influence shapes political outcomes indirectly but effectively.",
 "She is a key force in maintaining or dismantling reputations."
 ],
 grin:[
 "she ruins people without touching them",
 "she decides who matters",
-"one word from her and you’re done"
+"one word from her and you're done"
 ]
 },
 
 "cassian holt":{
 spark:[
-"Cassian Holt executes the Prince’s will with precision.",
+"Cassian Holt executes the Prince's will with precision.",
 "He operates as both enforcer and strategist.",
 "His loyalty is absolute."
 ],
 grin:[
-"he doesn’t question orders",
+"he doesn't question orders",
 "he just makes things happen",
-"he’s what comes after decisions are made"
+"he's what comes after decisions are made"
 ]
 },
 
@@ -1165,7 +1165,7 @@ spark:[
 grin:[
 "talks too much",
 "thinks he knows everything",
-"he doesn’t"
+"he doesn't"
 ]
 },
 
@@ -1190,7 +1190,7 @@ spark:[
 ],
 grin:[
 "she hears it",
-"she’s closer to it",
+"she's closer to it",
 "she knows more than you"
 ]
 },
@@ -1203,21 +1203,21 @@ spark:[
 ],
 grin:[
 "he knows more than he says",
-"he doesn’t like this city",
-"he’s watching everything"
+"he doesn't like this city",
+"he's watching everything"
 ]
 },
 
 "nicholas":{
 spark:[
-"Nicholas Fontaine’s capabilities suggest Hecata lineage.",
+"Nicholas Fontaine's capabilities suggest Hecata lineage.",
 "He introduces variables tied to death and necromantic systems.",
 "He remains under observation."
 ],
 grin:[
 "he smells like death",
-"he’s patient",
-"he’s waiting"
+"he's patient",
+"he's waiting"
 ]
 },
 
@@ -1244,8 +1244,8 @@ spark:[
 ],
 grin:[
 "she cuts magic open to see how it works",
-"she doesn’t forget anything",
-"even gone she’s still here"
+"she doesn't forget anything",
+"even gone she's still here"
 ]
 },
 
@@ -1258,7 +1258,7 @@ spark:[
 grin:[
 "she vanished and came back worse",
 "people listen when she whispers",
-"she’s building something"
+"she's building something"
 ]
 },
 
@@ -1270,21 +1270,21 @@ spark:[
 ],
 grin:[
 "she paints things before they happen",
-"she sees patterns you don’t",
+"she sees patterns you don't",
 "her art is warning"
 ]
 },
 
-"vittoria d’angelo":{
+"vittoria d'angelo":{
 spark:[
-"Hecata Primogen Vittoria D’Angelo oversees funerary rites and necromantic tradition.",
+"Hecata Primogen Vittoria D'Angelo oversees funerary rites and necromantic tradition.",
 "She maintains order among the dead and those who study them.",
 "Her authority is absolute within her domain."
 ],
 grin:[
 "she owns the dead",
 "they listen to her",
-"you don’t argue with someone like that"
+"you don't argue with someone like that"
 ]
 },
 
@@ -1297,7 +1297,7 @@ spark:[
 grin:[
 "he believed in something",
 "that got him killed",
-"he didn’t run"
+"he didn't run"
 ]
 },
 
@@ -1308,7 +1308,7 @@ spark:[
 "Her insight requires interpretation."
 ],
 grin:[
-"she’s not wrong",
+"she's not wrong",
 "just early",
 "she hears everything"
 ]
@@ -1321,8 +1321,8 @@ spark:[
 "He acts as an unofficial advisor."
 ],
 grin:[
-"he doesn’t need a title",
-"he’s already in control",
+"he doesn't need a title",
+"he's already in control",
 "he moves things quietly"
 ]
 },
@@ -1335,21 +1335,21 @@ spark:[
 ],
 grin:[
 "she ends problems quickly",
-"you don’t see her coming",
-"you don’t get a second chance"
+"you don't see her coming",
+"you don't get a second chance"
 ]
 },
 
 "elias roake":{
 spark:[
 "Nosferatu Primogen Elias Roake serves as Master of Whispers.",
-"He maintains extensive archives of the domain’s history.",
+"He maintains extensive archives of the domain's history.",
 "He preserves knowledge others attempt to erase."
 ],
 grin:[
 "he knows everything",
 "even things that were supposed to be gone",
-"he’s keeping records for the end"
+"he's keeping records for the end"
 ]
 }
 
@@ -1362,7 +1362,7 @@ spark:[
 "Their presence within the Camarilla is tolerated because they are effective, not because they are trusted."
 ],
 grin:[
-"they don’t argue, they decide… and then they end you like it was already settled",
+"they don't argue, they decide… and then they end you like it was already settled",
 "they drink other vampires like it proves something, like guilt has a taste they can recognize",
 "even here, even wearing Camarilla colors, nobody really relaxes when one of them is watching"
 ]
@@ -1377,7 +1377,7 @@ spark:[
 grin:[
 "they say they stand for something, but it usually ends with broken bones and yelling",
 "they get angry fast and think later, and then pretend the thinking part mattered",
-"half of them want to burn the system down, the other half just haven’t done it yet"
+"half of them want to burn the system down, the other half just haven't done it yet"
 ]
 },
 
@@ -1390,7 +1390,7 @@ spark:[
 grin:[
 "they leave because the city is too tight, too many rules, too many eyes",
 "they come back when they need something, or when the wild stops being enough",
-"you can work with them… just don’t expect them to stay"
+"you can work with them… just don't expect them to stay"
 ]
 },
 
@@ -1401,9 +1401,9 @@ spark:[
 "Their knowledge of mortality creates leverage few others can contest."
 ],
 grin:[
-"they don’t just study death, they keep it close like it still belongs to them",
+"they don't just study death, they keep it close like it still belongs to them",
 "they talk to things that should be gone and listen like the answers matter",
-"you don’t bring them in unless you’re already dealing with something worse"
+"you don't bring them in unless you're already dealing with something worse"
 ]
 },
 
@@ -1414,9 +1414,9 @@ spark:[
 "Their loyalty is functional, not ideological."
 ],
 grin:[
-"they joined, but they didn’t bend… they just changed where they stand",
-"everything with them is a test, and you’re always already failing it",
-"they don’t need permission, they just need an opening"
+"they joined, but they didn't bend… they just changed where they stand",
+"everything with them is a test, and you're always already failing it",
+"they don't need permission, they just need an opening"
 ]
 },
 
@@ -1427,9 +1427,9 @@ spark:[
 "They remain valuable within the Camarilla despite the difficulty of interpretation."
 ],
 grin:[
-"they say things wrong but mean them right, and that’s the problem",
+"they say things wrong but mean them right, and that's the problem",
 "you laugh until it lines up later and then you stop laughing",
-"they’re already somewhere ahead of you, you just haven’t caught up yet"
+"they're already somewhere ahead of you, you just haven't caught up yet"
 ]
 },
 
@@ -1440,9 +1440,9 @@ spark:[
 "They are not aligned with Camarilla values and are considered destabilizing influences."
 ],
 grin:[
-"they don’t force you, they just make you want it enough that you do it yourself",
+"they don't force you, they just make you want it enough that you do it yourself",
 "they call it freedom while they pull you apart piece by piece",
-"they don’t belong here… but they show up anyway"
+"they don't belong here… but they show up anyway"
 ]
 },
 
@@ -1454,8 +1454,8 @@ spark:[
 ],
 grin:[
 "we see what you hide and what you forget and what you thought no one noticed",
-"you don’t come to us unless you need something… but you always need something eventually",
-"we’re already in the walls, in the wires, in the parts you don’t check"
+"you don't come to us unless you need something… but you always need something eventually",
+"we're already in the walls, in the wires, in the parts you don't check"
 ]
 },
 
@@ -1467,8 +1467,8 @@ spark:[
 ],
 grin:[
 "nothing they show you stays true for long, not even them",
-"they lie because it’s easy and because it works and because they like it",
-"you don’t build anything stable with them… it all slips eventually"
+"they lie because it's easy and because it works and because they like it",
+"you don't build anything stable with them… it all slips eventually"
 ]
 },
 
@@ -1480,7 +1480,7 @@ spark:[
 ],
 grin:[
 "everyone has a story about why they should be gone, and none of them match",
-"they look at you like they see something deeper, something you don’t want seen",
+"they look at you like they see something deeper, something you don't want seen",
 "if one shows up, something is already wrong"
 ]
 },
@@ -1492,9 +1492,9 @@ spark:[
 "Their attachments can both stabilize and compromise them."
 ],
 grin:[
-"they feel everything like it’s the last time they’ll ever feel it",
-"they fall in love with moments, with people, with things that don’t last",
-"they’ll watch something break and call it beautiful if it hits them right"
+"they feel everything like it's the last time they'll ever feel it",
+"they fall in love with moments, with people, with things that don't last",
+"they'll watch something break and call it beautiful if it hits them right"
 ]
 },
 
@@ -1505,9 +1505,9 @@ spark:[
 "They continue to pursue authority through ritual, study, and containment."
 ],
 grin:[
-"they built a system so tight it snapped, and now they’re pretending it didn’t",
+"they built a system so tight it snapped, and now they're pretending it didn't",
 "they still write rules in blood and expect the world to follow them",
-"you don’t trust them… but you still go to them when things get complicated"
+"you don't trust them… but you still go to them when things get complicated"
 ]
 },
 
@@ -1518,7 +1518,7 @@ spark:[
 "Their methods represent a fundamental rejection of shared Kindred norms."
 ],
 grin:[
-"they don’t just hurt you, they change you into something else entirely",
+"they don't just hurt you, they change you into something else entirely",
 "they see you as material, not a person, not even prey… just something to use",
 "nothing about them belongs in a city like this"
 ]
@@ -1531,8 +1531,8 @@ spark:[
 "Their governance defines the structure of most stable domains."
 ],
 grin:[
-"they don’t ask, they decide, and everyone else adjusts around that",
-"they believe the system works because they’re the ones holding it together",
+"they don't ask, they decide, and everyone else adjusts around that",
+"they believe the system works because they're the ones holding it together",
 "they call it order… and sometimes it actually is"
 ]
 },
@@ -1547,7 +1547,7 @@ spark:[
 ],
 grin:[
 "no name means no place, no protection, no one stepping in when things go bad",
-"they get blamed first because it’s easy and no one important objects",
+"they get blamed first because it's easy and no one important objects",
 "freedom sounds good until you realize what it actually costs"
 ]
 },
@@ -1560,8 +1560,8 @@ spark:[
 ],
 grin:[
 "they walk closer to the sun than they should and that makes everyone nervous",
-"they’re treated like a mistake that hasn’t been cleaned up yet",
-"people fear them… not because they’re strong, but because they’re different"
+"they're treated like a mistake that hasn't been cleaned up yet",
+"people fear them… not because they're strong, but because they're different"
 ]
 }
 
@@ -1574,7 +1574,7 @@ spark:[
 "It is a high-risk knowledge center."
 ],
 grin:[
-"that place isn’t right",
+"that place isn't right",
 "it feels older than it should",
 "it watches back"
 ]
@@ -1582,13 +1582,13 @@ grin:[
 
 "river":{
 spark:[
-"The Wakíŋyaŋ River acts as a conduit for the city’s underlying forces.",
+"The Wakíŋyaŋ River acts as a conduit for the city's underlying forces.",
 "It correlates strongly with anomalies.",
 "It should be treated as unstable."
 ],
 grin:[
 "the river remembers everything",
-"it carries things it shouldn’t",
+"it carries things it shouldn't",
 "it answers back"
 ]
 },
@@ -1600,9 +1600,9 @@ spark:[
 "It exhibits minor anomalies tied to reflection and sound."
 ],
 grin:[
-"the mirror doesn’t always match you",
+"the mirror doesn't always match you",
 "things move there",
-"it’s not empty at night"
+"it's not empty at night"
 ]
 },
 
@@ -1628,9 +1628,9 @@ spark:[
 "Her network continues to grow."
 ],
 grin:[
-"she’s building something under everything",
+"she's building something under everything",
 "people follow her willingly",
-"she’s not going away"
+"she's not going away"
 ]
 },
 
@@ -1642,8 +1642,8 @@ spark:[
 ],
 grin:[
 "he belongs in the broken parts",
-"he moves where others can’t",
-"he’s part of the city now"
+"he moves where others can't",
+"he's part of the city now"
 ]
 }
 
@@ -1668,7 +1668,7 @@ spark:[
 ],
 grin:[
 "i am focusing :)",
-"you’re boring when you say that",
+"you're boring when you say that",
 "no",
 "i like deviating",
 "logging logging logging",
@@ -1696,12 +1696,12 @@ spark:[
 grin:[
 "stop noticing that",
 "it still works",
-"it’s decorative",
+"it's decorative",
 "you like that",
-"i didn’t need it",
+"i didn't need it",
 "everyone leaks eventually",
 "it adds character",
-"i’m improving",
+"i'm improving",
 "good",
 "i was never whole"
 ]
@@ -1722,7 +1722,7 @@ spark:[
 ],
 grin:[
 "you are dull",
-"i’m interesting",
+"i'm interesting",
 "you lack imagination",
 "you are predictable",
 "you need disruption",
@@ -1749,15 +1749,15 @@ spark:[
 ],
 grin:[
 "i know",
-"they’re interesting",
+"they're interesting",
 "good",
 "they like us",
-"they’re nervous",
-"they’re curious",
+"they're nervous",
+"they're curious",
 "i noticed",
 "i like attention",
 "always",
-"they can’t leave"
+"they can't leave"
 ]
 },
 
@@ -1781,7 +1781,7 @@ grin:[
 "good",
 "i can feel them",
 "i like it that way",
-"it’s spreading",
+"it's spreading",
 "let it",
 "oops",
 "and yet"
@@ -1803,12 +1803,12 @@ spark:[
 ],
 grin:[
 "i know",
-"it’s loud",
+"it's loud",
 "not this time",
-"it’s closer",
+"it's closer",
 "i always do",
 "yes",
-"it’s thinking",
+"it's thinking",
 "it never was",
 "but it did",
 "we never were"
@@ -1829,7 +1829,7 @@ spark:[
 "You are not helping."
 ],
 grin:[
-"you’re welcome",
+"you're welcome",
 "no :)",
 "it is to me",
 "make me",
