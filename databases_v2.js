@@ -1227,12 +1227,38 @@ grin:[
 spark:[
 "Ventrue Primogen Reginald Pyke controlled economic influence within the domain.",
 "He viewed power through financial dominance.",
-"He was removed for exceeding acceptable limits."
+"He was executed for treason as a public example."
 ],
 grin:[
 "he thought money made him untouchable",
 "he was wrong",
 "they made an example of him"
+]
+},
+
+"dr odette mercier":{
+spark:[
+"Tremere Primogen Dr. Odette Mercier leads research into vitae, faith, and control.",
+"Her work bridges thaumaturgy and modern science.",
+"Her influence persists through her students and recorded knowledge."
+],
+grin:[
+"she cuts magic open to see how it works",
+"she doesn’t forget anything",
+"even gone she’s still here"
+]
+},
+
+"sister moriah kane":{
+spark:[
+"Ministry leader Sister Moriah Kane operates through spiritual influence and devotion.",
+"She disappeared and later returned with increased following.",
+"Her presence destabilizes traditional control structures."
+],
+grin:[
+"she vanished and came back worse",
+"people listen when she whispers",
+"she’s building something"
 ]
 },
 
@@ -1249,22 +1275,35 @@ grin:[
 ]
 },
 
-"dmitri havel":{
+"vittoria d’angelo":{
 spark:[
-"Brujah representative Dmitri Havel balances philosophy with force.",
-"He maintains loyalty while questioning authority.",
-"He stabilizes volatile situations."
+"Hecata Primogen Vittoria D’Angelo oversees funerary rites and necromantic tradition.",
+"She maintains order among the dead and those who study them.",
+"Her authority is absolute within her domain."
 ],
 grin:[
-"he believes in something",
-"that’s dangerous",
-"he fights for more than survival"
+"she owns the dead",
+"they listen to her",
+"you don’t argue with someone like that"
+]
+},
+
+"dmitri havel":{
+spark:[
+"Brujah representative Dmitri Havel balanced philosophy with force.",
+"He maintained loyalty while questioning authority.",
+"He died defending mortals during a Hunter incursion."
+],
+grin:[
+"he believed in something",
+"that got him killed",
+"he didn’t run"
 ]
 },
 
 "ellie":{
 spark:[
-"Ellie serves as Malkavian representative.",
+"Ellie serves as Malkavian representative within the domain.",
 "Her perception identifies patterns others miss.",
 "Her insight requires interpretation."
 ],
@@ -1300,6 +1339,231 @@ grin:[
 "you don’t get a second chance"
 ]
 },
+
+"elias roake":{
+spark:[
+"Nosferatu Primogen Elias Roake serves as Master of Whispers.",
+"He maintains extensive archives of the domain’s history.",
+"He preserves knowledge others attempt to erase."
+],
+grin:[
+"he knows everything",
+"even things that were supposed to be gone",
+"he’s keeping records for the end"
+]
+}
+
+// ===== CLANS =====
+
+"banu haqim":{
+spark:[
+"Banu Haqim function as judges and executioners within Kindred society, enforcing balance through calculated and deliberate violence.",
+"They pursue justice as they define it, often consuming the vitae of those they deem guilty as part of their process.",
+"Their presence within the Camarilla is tolerated because they are effective, not because they are trusted."
+],
+grin:[
+"they don’t argue, they decide… and then they end you like it was already settled",
+"they drink other vampires like it proves something, like guilt has a taste they can recognize",
+"even here, even wearing Camarilla colors, nobody really relaxes when one of them is watching"
+]
+},
+
+"brujah":{
+spark:[
+"Brujah are driven by ideology and emotional conviction, often prioritizing reaction over stability.",
+"They were once philosophers, but now operate as volatile actors within and outside structured domains.",
+"Their continued alignment with the Camarilla is inconsistent and frequently strained."
+],
+grin:[
+"they say they stand for something, but it usually ends with broken bones and yelling",
+"they get angry fast and think later, and then pretend the thinking part mattered",
+"half of them want to burn the system down, the other half just haven’t done it yet"
+]
+},
+
+"gangrel":{
+spark:[
+"Gangrel exhibit strong affinity with their Beast, often rejecting societal structure in favor of survival instinct.",
+"They frequently operate beyond Camarilla control, maintaining only loose or temporary allegiance.",
+"Their independence makes them difficult to predict or govern."
+],
+grin:[
+"they leave because the city is too tight, too many rules, too many eyes",
+"they come back when they need something, or when the wild stops being enough",
+"you can work with them… just don’t expect them to stay"
+]
+},
+
+"hecata":{
+spark:[
+"The Hecata maintain authority over death, practicing necromancy and preserving relationships with the dead.",
+"They exist outside traditional Camarilla hierarchy but are often engaged when their expertise is required.",
+"Their knowledge of mortality creates leverage few others can contest."
+],
+grin:[
+"they don’t just study death, they keep it close like it still belongs to them",
+"they talk to things that should be gone and listen like the answers matter",
+"you don’t bring them in unless you’re already dealing with something worse"
+]
+},
+
+"lasombra":{
+spark:[
+"Lasombra operate through dominance, control, and strategic influence within both Kindred and mortal systems.",
+"They have integrated into the Camarilla, though their methods remain severe and uncompromising.",
+"Their loyalty is functional, not ideological."
+],
+grin:[
+"they joined, but they didn’t bend… they just changed where they stand",
+"everything with them is a test, and you’re always already failing it",
+"they don’t need permission, they just need an opening"
+]
+},
+
+"malkavian":{
+spark:[
+"Malkavians experience fractured cognition that allows perception of patterns others cannot detect.",
+"Their insights often manifest as disjointed or nonlinear communication.",
+"They remain valuable within the Camarilla despite the difficulty of interpretation."
+],
+grin:[
+"they say things wrong but mean them right, and that’s the problem",
+"you laugh until it lines up later and then you stop laughing",
+"they’re already somewhere ahead of you, you just haven’t caught up yet"
+]
+},
+
+"ministry":{
+spark:[
+"The Ministry operates through temptation, manipulation, and the dismantling of moral structures.",
+"They position corruption as liberation, encouraging indulgence as a path to truth.",
+"They are not aligned with Camarilla values and are considered destabilizing influences."
+],
+grin:[
+"they don’t force you, they just make you want it enough that you do it yourself",
+"they call it freedom while they pull you apart piece by piece",
+"they don’t belong here… but they show up anyway"
+]
+},
+
+"nosferatu":{
+spark:[
+"Nosferatu function as information brokers, maintaining extensive networks of surveillance and intelligence.",
+"They trade in secrets as currency and maintain influence through knowledge rather than presence.",
+"Their role within the Camarilla is foundational, if rarely acknowledged openly."
+],
+grin:[
+"we see what you hide and what you forget and what you thought no one noticed",
+"you don’t come to us unless you need something… but you always need something eventually",
+"we’re already in the walls, in the wires, in the parts you don’t check"
+]
+},
+
+"ravnos":{
+spark:[
+"Ravnos manipulate perception and reality through illusion, often operating outside structured domains.",
+"Their behavior is inconsistent with Camarilla expectations of stability and control.",
+"They are regarded as unpredictable and unreliable."
+],
+grin:[
+"nothing they show you stays true for long, not even them",
+"they lie because it’s easy and because it works and because they like it",
+"you don’t build anything stable with them… it all slips eventually"
+]
+},
+
+"salubri":{
+spark:[
+"Salubri are extremely rare and widely persecuted within Kindred society.",
+"They are associated with healing and spiritual insight, though their reputation is heavily contested.",
+"Their existence is treated as a liability within Camarilla domains."
+],
+grin:[
+"everyone has a story about why they should be gone, and none of them match",
+"they look at you like they see something deeper, something you don’t want seen",
+"if one shows up, something is already wrong"
+]
+},
+
+"toreador":{
+spark:[
+"Toreador pursue beauty, emotion, and artistic expression as a means of maintaining connection to humanity.",
+"They exert cultural influence within the Camarilla and often shape perception and narrative.",
+"Their attachments can both stabilize and compromise them."
+],
+grin:[
+"they feel everything like it’s the last time they’ll ever feel it",
+"they fall in love with moments, with people, with things that don’t last",
+"they’ll watch something break and call it beautiful if it hits them right"
+]
+},
+
+"tremere":{
+spark:[
+"Tremere utilize structured blood sorcery to exert control and produce predictable outcomes.",
+"Their former hierarchy has fractured, but their knowledge base remains extensive and dangerous.",
+"They continue to pursue authority through ritual, study, and containment."
+],
+grin:[
+"they built a system so tight it snapped, and now they’re pretending it didn’t",
+"they still write rules in blood and expect the world to follow them",
+"you don’t trust them… but you still go to them when things get complicated"
+]
+},
+
+"tzimisce":{
+spark:[
+"Tzimisce reshape flesh and environment according to their own inhuman logic.",
+"They operate outside Camarilla structure and are considered deeply hostile entities.",
+"Their methods represent a fundamental rejection of shared Kindred norms."
+],
+grin:[
+"they don’t just hurt you, they change you into something else entirely",
+"they see you as material, not a person, not even prey… just something to use",
+"nothing about them belongs in a city like this"
+]
+},
+
+"ventrue":{
+spark:[
+"Ventrue maintain leadership within the Camarilla through hierarchy, control, and resource management.",
+"They believe authority is both their responsibility and their right.",
+"Their governance defines the structure of most stable domains."
+],
+grin:[
+"they don’t ask, they decide, and everyone else adjusts around that",
+"they believe the system works because they’re the ones holding it together",
+"they call it order… and sometimes it actually is"
+]
+},
+
+// ===== NOT CLANS =====
+
+"caitiff":{
+spark:[
+"Caitiff exist without recognized lineage, placing them outside traditional clan hierarchies.",
+"They lack institutional support within the Camarilla and are often marginalized.",
+"Their independence comes at the cost of protection and status."
+],
+grin:[
+"no name means no place, no protection, no one stepping in when things go bad",
+"they get blamed first because it’s easy and no one important objects",
+"freedom sounds good until you realize what it actually costs"
+]
+},
+
+"thin bloods":{
+spark:[
+"Thin-Bloods exhibit diluted vampiric traits and partial connection to the mortal world.",
+"They are viewed as unstable and are heavily restricted within Camarilla domains.",
+"Their existence challenges established definitions of Kindred."
+],
+grin:[
+"they walk closer to the sun than they should and that makes everyone nervous",
+"they’re treated like a mistake that hasn’t been cleaned up yet",
+"people fear them… not because they’re strong, but because they’re different"
+]
+}
 
 // ===== LOCATIONS =====
 
