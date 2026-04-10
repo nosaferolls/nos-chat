@@ -1176,9 +1176,9 @@ spark:[
 "He has strong survival potential."
 ],
 grin:[
-"quiet one",
-"he watches",
-"he survives"
+"I like Frying Pan better.",
+"His only saving grace is Frying Pan. I love that furry little fucker.",
+"He knows when to keep his mouth shut, at least. Plus Frying Pan!!!"
 ]
 },
 
