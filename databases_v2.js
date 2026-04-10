@@ -1003,8 +1003,6 @@ grin:[
 /* ===== MAIN STORY DATABASE ===== */
 const DB = {
 
-// ===== CORE SYSTEMS =====
-
 "st ardent":{
 spark:[
 "St. Ardent is not a stable Camarilla domain. The land beneath the city is sentient, reactive, and increasingly difficult to contain using existing Tremere systems.",
@@ -1074,8 +1072,6 @@ grin:[
 ]
 },
 
-// ===== COURT =====
-
 "adrienne voss":{
 spark:[
 "Prince Adrienne Voss maintains control through calculated authority and restraint.",
@@ -1140,8 +1136,6 @@ grin:[
 "he's what comes after decisions are made"
 ]
 },
-
-// ===== COTERIE =====
 
 "lux":{
 spark:[
@@ -1220,8 +1214,6 @@ grin:[
 "he's waiting"
 ]
 },
-
-// ===== PRIMOGEN =====
 
 "reginald pyke":{
 spark:[
@@ -1351,9 +1343,7 @@ grin:[
 "even things that were supposed to be gone",
 "he's keeping records for the end"
 ]
-}
-
-// ===== CLANS =====
+},
 
 "banu haqim":{
 spark:[
@@ -1537,8 +1527,6 @@ grin:[
 ]
 },
 
-// ===== NOT CLANS =====
-
 "caitiff":{
 spark:[
 "Caitiff exist without recognized lineage, placing them outside traditional clan hierarchies.",
@@ -1563,9 +1551,7 @@ grin:[
 "they're treated like a mistake that hasn't been cleaned up yet",
 "people fear them… not because they're strong, but because they're different"
 ]
-}
-
-// ===== LOCATIONS =====
+},
 
 "st ephraim":{
 spark:[
@@ -1618,8 +1604,6 @@ grin:[
 "it just looks clean"
 ]
 },
-
-// ===== ANARCHS =====
 
 "sabine locke":{
 spark:[
